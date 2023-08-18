@@ -46,7 +46,7 @@ $(document).ready(function () {
     }
 
     async function pattern() {
-        const interval = 1000; // เวลาหน่วงระหว่างแสดงเสียงและแสง (มิลลิวินาที)
+        const interval = 1000; 
 
         for (const patternOfColor of gamePattern) {
             await new Promise(resolve => {
